@@ -1,0 +1,32 @@
+{
+  "name": "@kovalenko/material-dark-mode",
+  "version": "0.0.0",
+  "peerDependencies": {
+    "@angular/common": ">=16",
+    "@angular/core": ">=16",
+    "@angular/material": ">=16",
+    "@ngx-translate/core": ">=16",
+    "material-icons-font": ""
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/menelai/material-dark-mode.git"
+  },
+  "keywords": [
+    "angular",
+    "material",
+    "table"
+  ],
+  "author": "Kovalenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/menelai/material-dark-mode/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
