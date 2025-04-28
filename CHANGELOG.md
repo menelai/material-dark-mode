@@ -1,3 +1,10 @@
+# 1.0.0 (2025-04-28)
+
+
+### Features
+
+* init ([148c5ee](https://github.com/menelai/material-dark-mode/commit/148c5ee4b1fb265e15c604c92930979ee0013db9))
+
 # 1.0.0 (2025-04-24)
 
 
