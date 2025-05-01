@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/menelai/material-dark-mode/compare/v1.0.0...v1.1.0) (2025-05-01)
+
+
+### Features
+
+* button as template ([29bb9d2](https://github.com/menelai/material-dark-mode/commit/29bb9d20818aa15f5f1d9c49d9f40908d9cde961))
+
 # 1.0.0 (2025-04-28)
 
 
