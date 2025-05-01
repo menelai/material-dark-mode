@@ -1,16 +1,12 @@
-<button
-  type="button"
-  mat-menu-item
-  [matMenuTriggerFor]="colors"
-  #trigger="matMenuTrigger"
-  (mouseenter)="trigger.openMenu()"
->
-  <mat-icon>{{ mode === darkModeClass ? 'brightness_2' : 'wb_sunny' }}</mat-icon>
-  <span>
-    {{ 'Color theme' | translate }}:
-    {{ (mode === darkModeClass ? 'dark theme' : 'light theme') | translate }}
-  </span>
-</button>
+<ng-template #button>
+  <div class="f vcen">
+    <mat-icon>{{ mode === darkModeClass ? 'brightness_2' : 'wb_sunny' }}</mat-icon>
+    <span>
+      {{ 'Color theme' | translate }}:
+      {{ (mode === darkModeClass ? 'dark theme' : 'light theme') | translate }}
+    </span>
+  </div>
+</ng-template>
 
 <mat-menu #colors="matMenu">
   <button
